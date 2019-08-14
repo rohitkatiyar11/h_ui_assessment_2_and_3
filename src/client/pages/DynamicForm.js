@@ -27,7 +27,6 @@ class DynamicForm extends Component {
 
         // Get dropdowns values
         getDropDowns().then((res) => {
-            console.log('res', res);
             res.data && res.data.adults && this.setState({adults: res.data.adults});
             res.data && res.data.children && this.setState({children: res.data.children})
         })
