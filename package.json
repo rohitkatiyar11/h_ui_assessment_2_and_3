@@ -23,7 +23,7 @@
   },
   "author": "Rohit Katiyar",
   "dependencies": {
-    "axios": "0.16.2",
+    "axios": "^0.19.0",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.0",
     "babel-loader": "7.1.2",
@@ -32,12 +32,12 @@
     "babel-preset-es2017": "6.24.1",
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-0": "6.24.1",
-    "compression": "1.7.0",
+    "compression": "^1.7.4",
     "concurrently": "3.5.0",
     "eslint-config-latest": "^1.0.6",
-    "express": "4.15.4",
+    "express": "^4.17.1",
     "express-http-proxy": "1.0.6",
-    "lodash": "4.17.4",
+    "lodash": "^4.17.15",
     "nodemon": "^1.14.12",
     "npm-run-all": "4.1.1",
     "react": "16.0.0",
@@ -49,7 +49,7 @@
     "redux-thunk": "2.2.0",
     "serialize-javascript": "1.4.0",
     "webpack": "3.5.6",
-    "webpack-dev-server": "2.8.2",
+    "webpack-dev-server": "^3.8.0",
     "webpack-merge": "4.1.0",
     "webpack-node-externals": "1.6.0"
   }
